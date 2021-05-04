@@ -1,0 +1,23 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirZimhony/personal-site.git"
+  },
+  "author": "Amir Zimhony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirZimhony/personal-site/issues"
+  },
+  "homepage": "https://github.com/AmirZimhony/personal-site#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
