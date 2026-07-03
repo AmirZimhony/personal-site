@@ -46,7 +46,7 @@
                 <li>Computes enrichment metrics</li>
                 <li>Stores structured outputs in MongoDB</li>
                 <li>Generates daily market summaries using LLMs and sends them via email</li>
-                <li>Includes an NL query agent that answers stock-related questions by querying the pipeline's enriched tables</li>
+                <li>Includes a natural-language stock query agent: LangGraph orchestration, RAG over schema and examples, structured query planning, validation, and evals against the pipeline's enriched tables</li>
             </ul>
 
             <h4>My Responsibilities</h4>
@@ -58,7 +58,7 @@
                 <li>Containerized services with Docker</li>
                 <li>Deployed and operated the system on a VPS</li>
                 <li>Integrated OpenAI API for report generation</li>
-                <li>Built an LLM-powered agent that interprets natural-language questions and queries the pipeline's data tables to produce answers</li>
+                <li>Built a natural-language stock query agent with LangGraph — RAG over schema/examples, structured query planning, validation, and evals so answers stay grounded in pipeline data</li>
             </ul>
 
             <h4>Tech Stack</h4>
@@ -71,7 +71,9 @@
                 <span class="tech-badge">Linux / VPS</span>
                 <span class="tech-badge">GitHub</span>
                 <span class="tech-badge">OpenAI API</span>
-                <span class="tech-badge">LLM Agents</span>
+                <span class="tech-badge">LangChain</span>
+                <span class="tech-badge">LangGraph</span>
+                <span class="tech-badge">RAG</span>
             </div>
 
             <h4>Engineering Challenges</h4>
@@ -82,7 +84,7 @@
                 <li>Designing retention and TTL logic</li>
                 <li>Keeping the system reliable on limited infrastructure</li>
                 <li>Separating configuration, prompts, and business logic cleanly</li>
-                <li>Grounding agent responses in actual pipeline data to avoid hallucination</li>
+                <li>Grounding agent responses in pipeline data — query planning, validation, and evals to catch bad outputs</li>
             </ul>
 
             <h4>Architecture</h4>
@@ -96,6 +98,28 @@
                 <a href="images/sample-report-full.png" target="_blank">
                     <img src="images/sample-report.png" alt="Sample AI-generated market summary report" class="img-fluid" style="border:1px solid #e5e7eb; border-radius:10px; margin:0.5rem auto 1rem; display:block; max-width:100%; cursor:zoom-in;">
                 </a>
+            </div>
+        </div>
+
+        <!-- Personal Project -->
+        <div class="project-card">
+            <h3>Mood Debugger</h3>
+            <p class="project-desc">A user-facing AI app that helps people understand why they feel off. It guides you through focused questions about sleep, food, movement, social contact, phone use, and other daily factors, then generates a personalized explanation in natural language — turning a vague bad mood into clearer, more actionable insight.</p>
+
+            <h4>What It Does</h4>
+            <ul>
+                <li>Walks users through structured questions about daily habits and context</li>
+                <li>Uses an LLM to synthesize answers into a plain-language explanation of what might be affecting their mood</li>
+                <li>Designed as a real product experience, not just a backend demo</li>
+            </ul>
+
+            <h4>Tech Stack</h4>
+            <div class="tech-badges">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">FastAPI</span>
+                <span class="tech-badge">LangGraph</span>
+                <span class="tech-badge">LLM APIs</span>
+                <span class="tech-badge">GCP</span>
             </div>
         </div>
 
